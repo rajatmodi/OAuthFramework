@@ -15,31 +15,6 @@
 * Credentials limit us implement expiration on the resource
 * Revoking access for a particular client is not possible. Access for all clients will be revoked on password change
 
-## Functional Requirements
-
-Implement OAuth *Framework* for a Resource Server
-https://tools.ietf.org/html/rfc6749#section-1.1
-
-## Non Functional Requirements
-
-None for Now. 
-
-* Performance
-* Scalability
-* Capacity
-* Availability
-* Reliability
-* Recoverability
-* Maintainability
-* Serviceability
-* Security
-* Regulatory
-* Manageability
-* Environmental
-* Data Integrity
-* Usability
-* Interoperability
-
 ## Limitation
 * OAuth works only with HTTP
 
@@ -75,3 +50,30 @@ None for Now.
    two parts as they pass through the user-agent.
 
                      Figure 3: Authorization Code Flow
+                     
+
+## Functional Requirements
+
+Implement OAuth *Framework* for a Resource Server
+https://tools.ietf.org/html/rfc6749#section-1.1
+
+## Non Functional Requirements
+
+None for Now. 
+
+* Performance
+* Scalability
+* Capacity
+* Availability
+* Reliability
+* Recoverability
+* Maintainability
+* Serviceability
+* Security
+* Regulatory
+* Manageability
+* Environmental
+* Data Integrity
+* Usability
+* Interoperability
+
