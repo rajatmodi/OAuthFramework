@@ -43,4 +43,5 @@ None for Now.
 ## Limitation
 * OAuth works only with HTTP
 
-![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68686802-36254e00-0592-11ea-8a81-a84c32a820e4.png)
+![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68687025-91efd700-0592-11ea-90ea-035618057f23.png)
+
