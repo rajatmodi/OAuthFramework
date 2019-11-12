@@ -22,7 +22,7 @@
 
 ![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68687025-91efd700-0592-11ea-90ea-035618057f23.png)
 
-                         Authorization Code Flow
+                         Authorization Code Flow (https://tools.ietf.org/html/rfc6749#section-4.1)
 
      +----------+
      | Resource |
