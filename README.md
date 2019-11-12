@@ -18,6 +18,8 @@
 ## Limitation
 * OAuth works only with HTTP
 
+## Sequence Diagrams
+
 ![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68687025-91efd700-0592-11ea-90ea-035618057f23.png)
 
      +----------+
