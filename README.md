@@ -71,3 +71,7 @@ None for Now.
      |         |<---(E)----- Access Token -------------------'
      +---------+       (w/ Optional Refresh Token)
 
+   Note: The lines illustrating steps (A), (B), and (C) are broken into
+   two parts as they pass through the user-agent.
+
+                     Figure 3: Authorization Code Flow
