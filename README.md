@@ -22,6 +22,8 @@
 
 ![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68687025-91efd700-0592-11ea-90ea-035618057f23.png)
 
+                         Authorization Code Flow
+
      +----------+
      | Resource |
      |   Owner  |
@@ -51,7 +53,6 @@
    Note: The lines illustrating steps (A), (B), and (C) are broken into
    two parts as they pass through the user-agent.
 
-                     Figure 3: Authorization Code Flow
                      
 
 ## Functional Requirements
