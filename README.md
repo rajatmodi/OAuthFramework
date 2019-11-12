@@ -15,9 +15,6 @@
 * Credentials limit us implement expiration on the resource
 * Revoking access for a particular client is not possible. Access for all clients will be revoked on password change
 
-## Limitation
-* OAuth works only with HTTP
-
 ## Sequence Diagrams
 
 ![Obtaining Access Token](https://user-images.githubusercontent.com/14327075/68687025-91efd700-0592-11ea-90ea-035618057f23.png)
@@ -53,16 +50,27 @@
    Note: The lines illustrating steps (A), (B), and (C) are broken into
    two parts as they pass through the user-agent.
 
+## Out of Scope for OAuth Framework
+* The use of OAuth over any protocol other than HTTP is out of scope.
+* Authenticating resource owners to clients is out of scope for this specification. 
+* The interaction between the authorization server and resource server is beyond the scope of this specification.
+* Access token attributes and the methods used to access protected resources are beyond the scope of
+  this specification and are defined by companion specifications such
+  as [RFC6750] https://tools.ietf.org/html/rfc6750.
+* The means through which the client registers with the authorization server are beyond the scope of this
+  specification but typically involve end-user interaction with an HTML registration form.  
+* The methods used by the resource server to validate the access token (as well as any error responses)
+  are beyond the scope of this specification but generally involve an
+  interaction or coordination between the resource server and the
+  authorization server.    
                      
 
 ## Functional Requirements
-
-Implement OAuth *Framework* for a Resource Server
-https://tools.ietf.org/html/rfc6749#section-1.1
+[PLACEHOLDER]
 
 ## Non Functional Requirements
 
-None for Now. 
+[PLACEHOLDER]
 
 * Performance
 * Scalability
