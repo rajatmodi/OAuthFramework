@@ -1,4 +1,4 @@
-# Use Case I want to support.
+# Use Cases I want to support.
 
 ## UseCase A
 
