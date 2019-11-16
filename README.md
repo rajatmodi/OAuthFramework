@@ -1,3 +1,19 @@
+# Use Case I want to support.
+
+## UseCase A
+
+* `End-User` is playing Candy Crush on a Web_App/Desktop_App/ANY_OTHER_CLIENT. `Client`
+* `End-User` creates a highscore and `Client` wants to post this event on `End-User` Facebook Wall.
+* `End-User` agrees to this post and provides the Facebook username for the same.
+* `Client` requests Facebook `Resource Server` to create a Post on `End-User` wall on his/her behalf.
+* **`Resource Server` has to authenticate the `Client`.**
+* **`Resource Server` has to authorise this request that originated from `Client`.**
+*  After Authenticating and Authorising the `Client` for this action the Post on the Facebook wall is created.
+
+## UseCase B (Service-Oriented-Architecture)
+
+
+
 # OAuthFramework
 
 ## What is it?
@@ -6,6 +22,7 @@
 * Enables clients to gain limited access to a Resource( Service/UserData) 
 * Authorisation can be given by interacting with Resource Owner
 * Authorisation can be given on behalf of the Client
+
 
 ## Challenges with password based Authentication
 
