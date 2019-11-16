@@ -11,7 +11,17 @@
 *  After Authenticating and Authorising the `Client` for this action the Post on the Facebook wall is created.
 
 ## UseCase B (Service-Oriented-Architecture)
+Services encapsulate Business Logic. Here the *Protected Resource* is the Business Logic. The `Resource Owner` is the Service Owner. `Client` is another service who intends to utilize the business logic and add more functionality around that. 
+`Resource Server` is the Service itself. 
 
+* `ServiceA` wishes to send an SMS congratulating the winners of a contest.
+* `ServiceB` has an API `getWinners` to return the list of emailIDs that won the contest.
+* `ServiceA` calls `ServiceB` to getWinners.
+* **`ServiceB` has to Authenticate `ServiceA`.**
+* **`ServiceB` has to Authorize `ServiceA`.**
+
+
+*My Target is to define the Mechanism to achieve the **BOLD** statements in above UseCases.*
 
 
 # OAuthFramework
