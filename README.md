@@ -110,3 +110,5 @@ Services encapsulate Business Logic. Here the *Protected Resource* is the Busine
 
 
 ## Service APIs
+
+## API Request and Response
