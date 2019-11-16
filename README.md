@@ -91,27 +91,22 @@ Services encapsulate Business Logic. Here the *Protected Resource* is the Busine
   interaction or coordination between the resource server and the
   authorization server.    
                      
+## Simplification for First Phase
+* Registeration of Client on the Authorisation Server will be done manually, directly in the code.
+* Authentication of Resource Owner and Approval/Denial of Client's Authorisation Grant Request will be done manually, directly in code. 
+* Resource Server and Authorisation Server will reside on the same server instance.
+
+*In first phase we will have a Server that authorizes the request from the client, issues an access token and returns the protected resources, after proper authorisation.*
 
 ## Functional Requirements
-[PLACEHOLDER]
+* The Service will be an HTTP Service.
+* The Service will contain a few pre-registered clients, who can request access to a protected resource.
+* The Service will follow OAuth Framework, to Authorise Incoming requests.
+* The Service will surface the protect resource for an Authorised request.
 
 ## Non Functional Requirements
 
 [PLACEHOLDER]
 
-* Performance
-* Scalability
-* Capacity
-* Availability
-* Reliability
-* Recoverability
-* Maintainability
-* Serviceability
-* Security
-* Regulatory
-* Manageability
-* Environmental
-* Data Integrity
-* Usability
-* Interoperability
 
+## Service APIs
