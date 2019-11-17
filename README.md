@@ -98,6 +98,9 @@ Services encapsulate Business Logic. Here the *Protected Resource* is the Busine
 
 *In first phase we will have a Server that authorizes the request from the client, issues an access token and returns the protected resources, after proper authorisation.*
 
+![Untitled Diagram](https://user-images.githubusercontent.com/14327075/69005418-0eded000-0948-11ea-921d-8c71d2145512.png)
+
+
 ## Functional Requirements
 * The Service will be an HTTP Service.
 * The Service will contain a few pre-registered clients, who can request access to a protected resource.
