@@ -113,5 +113,12 @@ Services encapsulate Business Logic. Here the *Protected Resource* is the Busine
 
 
 ## Service APIs
+https://tools.ietf.org/html/rfc6749#section-3
+
+* Authorise
+* GetToken
 
 ## API Request and Response
+
+### Authorise
+
