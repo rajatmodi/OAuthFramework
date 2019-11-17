@@ -79,7 +79,7 @@ Services encapsulate Business Logic. Here the *Protected Resource* is the Busine
 
 ## Out of Scope for OAuth Framework
 * The use of OAuth over any protocol other than HTTP is out of scope.
-* Authenticating resource owners to clients is out of scope for this specification. 
+* The way in which the authorization server authenticates the resource owner is beyond the scope of this specification.
 * The interaction between the authorization server and resource server is beyond the scope of this specification.
 * Access token attributes and the methods used to access protected resources are beyond the scope of
   this specification and are defined by companion specifications such
